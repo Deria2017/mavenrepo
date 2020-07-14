@@ -22,12 +22,6 @@ sh 'mvn sonar:sonar'
 }
      }
             }
-stage(nexus){
-steps{
-sh 'mvn deploy'
-
-     }
-}
      
 stage(tomcat){
 steps{
