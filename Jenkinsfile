@@ -25,7 +25,7 @@ sh 'mvn sonar:sonar'
 
 stage(tomcat){
 steps{
-sh 'scp /root/workspace/first-pipeline/target/studentapp-2.1.1-FEAT01-SNAPSHOT.war root@100.26.171.34:/var/lib/tomcat/webapps'
+sh 'scp /root/workspace/first-pipeline/target/studentapp-2.1.1-FEAT01-SNAPSHOT.war root@54.236.52.78:/var/lib/tomcat/webapps'
      }
 
              }  
